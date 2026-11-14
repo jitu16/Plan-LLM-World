@@ -21,4 +21,4 @@
 * OPEN
 - Underlying mechanism and energy source of natural mana replenishment (natural generation versus external reservoir) and how divine artifacts are accounted for.
 - Transfer coefficients, replenishment model, capacity limits, spatial transport, leakage, saturation, and numerical stability thresholds.
-- Exact zone geometry: a mostly-hexagonal sphere with twelve pentagonal zones is recommended but not yet confirmed (see [[file:../geography.org][Geography]]).
+- Spherical hexagon-pentagon topology is agreed (see [[file:../geography.org][Geography]]); actual cell areas, geodesic resolution, and transfer coefficients remain to be determined.
