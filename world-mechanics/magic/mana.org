@@ -3,13 +3,22 @@
 
 * AGREED
 - Mana is drawn from the environment, not regenerated from an NPC's metabolic energy.
-- Each region has a finite local mana reservoir and a replenishment rate that may differ geographically.
+- Each region has a finite local mana reservoir; replenishment rates vary geographically.
 - NPCs have individual mana storage and absorption capacity.
+- Genesis initially comprises one active central zone and six adjacent zones. The six outer zones are not fully generated or populated in detail, but each has its own finite mana reserve and density.
+- Mana crossing from one zone into another must be removed from the source zone. Adjacent zones are not constant-density infinite boundary reservoirs.
+- Environmental exchange is modeled using discrete updates between adjacent zones, rather than particle-scale or continuous real-time diffusion.
 
 * PROPOSED
-- For region r track available M_r(t), maximum capacity, inflow, replenishment, and transfer to neighbors.
-- For NPC i track current mana, storage limit, absorption rate, and possible maximum discharge rate.
-- Require accounting for extraction and replenishment so transfer does not duplicate mana.
+- For each zone i, store total mana M_i, effective area/volume V_i, density rho_i = M_i/V_i, natural replenishment G_i, consumption C_i, and a list of neighboring zones.
+- For each adjacent pair (i,j), compute a single conservative transfer F_ij = K_ij (rho_j - rho_i) Delta_t and apply equal and opposite changes to the two reserves.
+- Include appropriate edge lengths, inter-cell distances, and surface geometry in K_ij for a spherical grid.
+- Update mana about 3-4 times per simulated day initially (e.g. every six hours for four updates). Verify numerical stability; reduce step size or limit transfers if any reservoir would go negative.
+- Perform inter-zone transfer calculations from the same snapshot; apply all net fluxes simultaneously so update order does not change the outcome.
+- Account for NPC absorption, spell usage, and reservoir replenishment between diffusion updates without duplicating energy.
+- Expand the region graph as exploration occurs. Detailed local maps need not be generated for unexplored zones.
 
 * OPEN
-- Spatial transport and diffusion, external replenishment source, leakage, saturation, divine artifacts.
+- Underlying mechanism and energy source of natural mana replenishment (natural generation versus external reservoir) and how divine artifacts are accounted for.
+- Transfer coefficients, replenishment model, capacity limits, spatial transport, leakage, saturation, and numerical stability thresholds.
+- Exact zone geometry: a mostly-hexagonal sphere with twelve pentagonal zones is recommended but not yet confirmed (see [[file:../geography.org][Geography]]).
