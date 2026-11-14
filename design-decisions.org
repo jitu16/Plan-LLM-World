@@ -52,7 +52,7 @@
 - Shield-specific keys and wearable passage artifacts with limited passage radius are desired concepts.
 - Literal infinity versus long-lived or externally supplied divine energy is not settled.
 
-* PROPOSED: Spherical world layout
+* AGREED: Spherical world layout
 - Use a sphere tiled mostly by hexagonal zones, plus twelve pentagonal zones, constructed as the dual of an icosahedral subdivision.
 - Most cells have six neighbors, twelve pentagonal cells have five; Genesis can use one of the ordinary hexagonal cells.
 - Spherical topology means there are no external map edges; purely periodic hex grids would instead have toroidal topology.
@@ -65,7 +65,7 @@
 - Every combatant continues to have ordinary executable behavior even when inference is delayed.
 
 * OPEN: Foundational questions
-- Confirm final world topology, spherical grid resolution, and how geography is generated beyond the seven Genesis zones.
+- Determine spherical grid resolution and how geography is generated beyond the seven Genesis zones.
 - Source/accounting of ambient mana replenishment and divine exceptions to conservation.
 - Numerical diffusion coefficients and stable update rates.
 - Shield duration, durability, key semantics, codebreaking, and passage radius rules.
