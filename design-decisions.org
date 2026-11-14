@@ -18,6 +18,7 @@
 - The exterior is extremely monster-infested; millions or billions of monsters may be represented abstractly rather than individually simulated.
 - Monsters can be instantiated at encounters, with distance from the protective shield potentially influencing risk.
 - The population can grow, develop settlements, and explore; simulation speed must be adjustable.
+- The starting region graph has one Genesis zone with six adjacent unexplored zones.
 
 * AGREED: NPC cognitive architecture
 - Most NPCs use conventional game AI for routine behavior.
@@ -40,11 +41,22 @@
 - Mana may produce fire, water-related effects, and other selected elemental phenomena, subject to matter/energy accounting.
 - Grimoires, inscriptions, and mana stones are candidate carriers of magic programs.
 
+* AGREED: Zone-based mana transport
+- The six initially unexplored neighboring zones each have finite mana reservoirs, not fixed-density boundary reservoirs.
+- Inter-zone mana flow subtracts mana from the donating region and adds it to the receiving region, conservatively.
+- Discrete zone-by-zone exchanges are preferred over continuous, fine-grained diffusion simulation.
+
 * AGREED: Special artifacts and shields
 - The Genesis shield is powered by a divine or otherwise exceptional artifact with a potentially inexhaustible mana supply and potentially extraordinary durability.
 - Conventional shields can be damaged, replenished by mana injection, and eventually broken.
 - Shield-specific keys and wearable passage artifacts with limited passage radius are desired concepts.
 - Literal infinity versus long-lived or externally supplied divine energy is not settled.
+
+* PROPOSED: Spherical world layout
+- Use a sphere tiled mostly by hexagonal zones, plus twelve pentagonal zones, constructed as the dual of an icosahedral subdivision.
+- Most cells have six neighbors, twelve pentagonal cells have five; Genesis can use one of the ordinary hexagonal cells.
+- Spherical topology means there are no external map edges; purely periodic hex grids would instead have toroidal topology.
+- Update local mana several times per simulated day (initial candidate: 3-4 times), using symmetric pairwise flows and nonnegative reserve constraints.
 
 * PROPOSED: Timing
 - Simulated time, NPC action duration, and model computation time are distinct.
@@ -53,7 +65,9 @@
 - Every combatant continues to have ordinary executable behavior even when inference is delayed.
 
 * OPEN: Foundational questions
+- Confirm final world topology, spherical grid resolution, and how geography is generated beyond the seven Genesis zones.
 - Source/accounting of ambient mana replenishment and divine exceptions to conservation.
+- Numerical diffusion coefficients and stable update rates.
 - Shield duration, durability, key semantics, codebreaking, and passage radius rules.
 - How background population and monsters are abstracted and later instantiated consistently.
 - How many influential NPCs can be supported and how decisions are scheduled in player-visible time.
