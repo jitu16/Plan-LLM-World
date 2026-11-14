@@ -1,0 +1,15 @@
+#+TITLE: Magical Discovery and Research
+#+STARTUP: overview
+
+* AGREED
+- NPCs independently experiment with magic and may discover new combinations and new-to-them principles.
+- LLM proposes hypotheses; the game engine determines experimental effects and observable evidence.
+
+* PROPOSED
+- Separate true physics from symbol knowledge, theories, experimental records, and institutional teaching.
+- Experiments cost materials, time, and mana, and can fail or cause danger under explicit rules.
+- Knowledge may spread through grimoires, mentorship, commerce, espionage, and travel.
+- Researchers can be intellectually gifted without being powerful mana users.
+
+* OPEN
+- How symbols are first found, feedback visibility, risks, research difficulty, knowledge transfer.

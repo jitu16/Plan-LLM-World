@@ -1,0 +1,13 @@
+#+TITLE: Local LLM Model Selection
+#+STARTUP: overview
+
+* AGREED
+- An NPC's identity comes from durable context, memories, and traits—not individual model weights.
+- The model should be chosen based on the simulation's actual needs.
+
+* PROPOSED
+- Benchmark several small local models for strategic reasoning, dialogues, symbolic research, structured output, throughput, and context handling.
+- Use realistic world scenarios and measured latency before committing to a particular model or size.
+
+* OPEN
+- Model family, context length, hardware, quantization, model migrations.

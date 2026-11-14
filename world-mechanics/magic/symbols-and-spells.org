@@ -1,0 +1,16 @@
+#+TITLE: Magic Symbols and Executable Spells
+#+STARTUP: overview
+
+* AGREED
+- Every symbol has a fixed engine-defined meaning; symbolic combinations are interpreted as programs.
+- New inscriptions succeed or fail on syntax, semantics, mana, material resources, preconditions, and physical laws.
+- NPCs can combine symbols into spells not explicitly designed as spell names by developers.
+- Grimoires, mana stones, and inscriptions may store or power programs.
+
+* PROPOSED
+- Typed operations and parameters; parse, type-check, validate preconditions and energy, then execute within cost and instruction budgets.
+- Cache/compile validated spells for use by ordinary NPCs and battle units without fresh inference.
+- Restrict recursion, unbounded loops, and computationally explosive spell programs.
+
+* OPEN
+- Symbol alphabet and grammar, runtime semantics, experimental error feedback, timing, inscription durability, matter creation versus manipulation.

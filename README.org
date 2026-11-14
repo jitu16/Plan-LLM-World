@@ -1,5 +1,67 @@
 #+TITLE: LLM World Simulation — Planning Repository
 #+STARTUP: overview
 
-* Planning repository
-Initial Org-mode draft for the autonomous multi-generational RPG world.
+* Purpose
+Planning documents for an autonomous, multi-generational medieval-fantasy RPG world. The world should evolve without a player; optional player participation should not be required for its history to unfold.
+
+* Status
+Initial draft. No implementation code. The documents distinguish agreed decisions, tentative proposals, and unanswered questions.
+
+* Start here
+- [[file:design-decisions.org][Decision log]]
+- [[file:roadmap.org][Development roadmap]]
+- [[file:world-mechanics/genesis.org][Genesis scenario]]
+- [[file:world-mechanics/magic/overview.org][Magic system]]
+- [[file:npcs/decision-making.org][NPC cognition]]
+- [[file:simulation/scheduling.org][Scheduling and simulation time]]
+
+* File index
+** architecture
+- [[file:architecture/data-structures.org][Data Structures]]
+- [[file:architecture/overview.org][System Architecture]]
+- [[file:architecture/persistence.org][Persistence and Replay]]
+- [[file:architecture/scalability.org][Scalability and Simulation Fidelity]]
+** llm
+- [[file:llm/context-management.org][LLM Context and Memory Retrieval]]
+- [[file:llm/model-selection.org][Local LLM Model Selection]]
+- [[file:llm/prompting.org][Decision and Dialogue Interfaces]]
+- [[file:llm/serving-and-clusters.org][Inference Serving and Clusters]]
+- [[file:llm/training.org][Training and Specialization]]
+** npcs
+- [[file:npcs/decision-making.org][NPC Decision Systems]]
+- [[file:npcs/influence-and-promotion.org][Influence, Promotion, and Cognitive Allocation]]
+- [[file:npcs/knowledge-and-beliefs.org][Knowledge, Beliefs, and Information Limits]]
+- [[file:npcs/memory.org][Individual NPC Memory]]
+- [[file:npcs/needs-and-goals.org][NPC Needs, Goals, and Intentions]]
+- [[file:npcs/relationships.org][Relationships, Reputation, and Lineage]]
+- [[file:npcs/traits.org][NPC Traits and Attributes]]
+** simulation
+- [[file:simulation/actions.org][Actions, Validation, and Execution]]
+- [[file:simulation/combat.org][Combat, Armies, and Strategy]]
+- [[file:simulation/events.org][Events and Historical Development]]
+- [[file:simulation/information-flow.org][Information Propagation]]
+- [[file:simulation/population.org][Population, Generations, and Cohorts]]
+- [[file:simulation/scheduling.org][Event Scheduler and Decision Boundaries]]
+** testing
+- [[file:testing/benchmarks.org][Performance and Quality Benchmarks]]
+- [[file:testing/experiments.org][Experiments and Validation]]
+** world-mechanics
+- [[file:world-mechanics/artifacts-and-shields.org][Artifacts, Shields, and Access Keys]]
+- [[file:world-mechanics/economy.org][Economy and Production]]
+- [[file:world-mechanics/factions.org][Political Institutions and Factions]]
+- [[file:world-mechanics/genesis.org][Genesis Scenario]]
+- [[file:world-mechanics/geography.org][Geography and Territory]]
+- [[file:world-mechanics/magic/mana.org][Environmental Mana Reservoirs]]
+- [[file:world-mechanics/magic/overview.org][Hard Magic System]]
+- [[file:world-mechanics/magic/research.org][Magical Discovery and Research]]
+- [[file:world-mechanics/magic/symbols-and-spells.org][Magic Symbols and Executable Spells]]
+- [[file:world-mechanics/monsters.org][Monsters and External Threat]]
+- [[file:world-mechanics/physical-rules.org][Physical and Magical Conservation Laws]]
+- [[file:world-mechanics/time.org][World Time and Simulation Speed]]
+- [[file:world-mechanics/world-state.org][Authoritative World State]]
+
+* Editorial conventions
+- Plain Org-mode planning documents; no implementation yet.
+- AGREED means selected design direction; PROPOSED means a candidate, and OPEN means unresolved.
+- Preserve past decisions and document changes in [[file:design-decisions.org][design-decisions.org]].
+- The world engine alone determines physical truth and action outcomes.

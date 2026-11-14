@@ -1,0 +1,16 @@
+#+TITLE: World Time and Simulation Speed
+#+STARTUP: overview
+
+* AGREED
+- Simulation must support accelerating and slowing time.
+- Real model computation time is not equal to in-world time or NPC action duration.
+- No NPC should freeze in combat while the local LLM generates a response.
+
+* PROPOSED
+- Use scheduled events and coarse updates for routine life.
+- Allow decision barriers for consequential choices, especially in autonomous Genesis.
+- In interactive mode, preserve reliable high-level decisions with explicit strategic pause points where necessary.
+- Preexisting orders and ordinary reactions operate between LLM decisions.
+
+* OPEN
+- Exact player-visible pause policy, simultaneous decision fairness, LLM deadlines, time acceleration limits.

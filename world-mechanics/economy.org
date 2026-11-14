@@ -1,0 +1,11 @@
+#+TITLE: Economy and Production
+#+STARTUP: overview
+
+* PROPOSED
+- Represent food, labor, land, raw materials, tools, agriculture, transport, scarcity, trade, taxes, and storage.
+- Institutions and NPCs can formulate economic objectives, but production requires actual inputs.
+- Use aggregated routine transactions where full detail is unnecessary.
+- Magic can change productivity only through accounted energy/material costs.
+
+* OPEN
+- Currency, prices, exchange mechanisms, property, labor markets, spoilage, social classes.

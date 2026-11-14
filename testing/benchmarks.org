@@ -1,0 +1,13 @@
+#+TITLE: Performance and Quality Benchmarks
+#+STARTUP: overview
+
+* PROPOSED
+- Measure tokens/sec, request latency, queue time, memory load, retries, and failures.
+- Measure historical progress (simulated years/hour), events/sec, population scaling, persistence size.
+- Test NPC memories, role distinctions, knowledge boundaries, goal consistency, and personal agency.
+- Ensure units never freeze while waiting on inference.
+- Audit magic conservation, symbolic runtime bounds, artifact exception rules, and spell validation.
+- Compare different simulation speed settings with stable seeds/decisions where possible.
+
+* OPEN
+- Numeric targets, hardware budget, tolerable interactive pauses.

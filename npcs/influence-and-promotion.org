@@ -1,0 +1,15 @@
+#+TITLE: Influence, Promotion, and Cognitive Allocation
+#+STARTUP: overview
+
+* AGREED
+- Influential NPCs may be promoted to or demoted from persistent LLM access dynamically.
+- Identity, personal history, memories, and plans survive changes.
+- Social rank alone is insufficient to define importance.
+
+* PROPOSED
+- Manage a fixed concurrent inference budget, including temporary dialogue access.
+- Consider political reach, resources, unusual potential, magical research, ambition, and decision complexity when promoting.
+- Demotion does not erase any character data.
+
+* OPEN
+- Promotion criteria, fairness, capacity limit, preemption, intergenerational redistribution.

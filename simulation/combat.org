@@ -1,0 +1,15 @@
+#+TITLE: Combat, Armies, and Strategy
+#+STARTUP: overview
+
+* AGREED
+- LLM commanders issue strategy and high-level orders; conventional AI handles soldiers, unit movement, formations, targeting, morale, and immediate defense.
+- No character must freeze during LLM latency.
+- Archers, pikemen, cavalry, and spellcasters should not each need an LLM.
+
+* PROPOSED
+- Use formation/unit-level simulation; instantiate detailed actors only when necessary.
+- Prepare orders and contingencies before battle and revisit plans at strategic decision points.
+- Apply magical attacks only through validated spells with paid costs.
+
+* OPEN
+- Battle timing, command delivery, morale, fog of war, unit detail, decision pauses.

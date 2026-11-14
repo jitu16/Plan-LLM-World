@@ -1,0 +1,14 @@
+#+TITLE: Individual NPC Memory
+#+STARTUP: overview
+
+* AGREED
+- Each instantiated NPC retains its own persistent memory regardless of cognitive controller.
+- Ordinary NPCs must be able to converse naturally during temporary LLM interactions.
+
+* PROPOSED
+- Store episodic experiences, learned information, private beliefs, relationship summaries, event times, perspectives, source reliability, and salience.
+- Retrieve only relevant information into a bounded model context.
+- Support intergenerational historical knowledge through teaching, documents, and other explicit channels.
+
+* OPEN
+- Memory compression, forgetting, privacy, lifetime budget, archives.

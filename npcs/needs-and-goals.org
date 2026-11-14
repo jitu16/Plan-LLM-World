@@ -1,0 +1,14 @@
+#+TITLE: NPC Needs, Goals, and Intentions
+#+STARTUP: overview
+
+* AGREED
+- NPCs can originate personal projects and unusual world-changing plans through valid actions.
+- Ordinary AI maintains routines and executes currently adopted plans.
+
+* PROPOSED
+- Use basic needs (food, shelter, safety, relationships) and short/medium/long-term goals.
+- Plans record steps, resources, priorities, conditional branches, and cancellation rules.
+- Personality and memory influence decisions instead of scripted plot triggers.
+
+* OPEN
+- Priority resolution, need decay, commitment and reconsideration.

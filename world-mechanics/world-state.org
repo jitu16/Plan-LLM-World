@@ -1,0 +1,13 @@
+#+TITLE: Authoritative World State
+#+STARTUP: overview
+
+* AGREED
+- Only the simulation engine defines world truth, inventory, ownership, effects, combat results, and successful magic.
+
+* PROPOSED
+- Track terrain, time, weather, settlements, institutions, resources, monsters, mana, artifacts, and events.
+- Keep observable and hidden world facts separate; NPCs receive only the former.
+- Apply changes through validated rules-supported actions.
+
+* OPEN
+- Map fidelity, event visibility, environment simulation, deterministic seeding.

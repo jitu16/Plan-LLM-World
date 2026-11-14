@@ -1,0 +1,14 @@
+#+TITLE: Information Propagation
+#+STARTUP: overview
+
+* AGREED
+- Knowledge does not instantly become universal when a single NPC discovers it.
+- Conversations and institutions are mechanisms for social influence.
+
+* PROPOSED
+- Transmit beliefs, rumors, magic, and news through conversations, travel, messages, teachers, grimoires, officials, and trade.
+- Track source credibility independently of objective truth.
+- Use only accessible facts when constructing an LLM interaction.
+
+* OPEN
+- Communication delays, secrecy, literacy, censorship, misinformation.

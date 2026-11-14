@@ -1,0 +1,11 @@
+#+TITLE: Decision and Dialogue Interfaces
+#+STARTUP: overview
+
+* PROPOSED
+- Use structured plans, intentions, and actions rather than free-form narration as the engine interface.
+- Keep speech separate from executable changes.
+- Pass actor ID, observations, relevant memory, goals, and available action constraints.
+- Reject invalid magic proposals and log failures for training/evaluation.
+
+* OPEN
+- Prompt templates, response schema, retry rules, inference deadline, dialogue length.

@@ -1,0 +1,14 @@
+#+TITLE: Experiments and Validation
+#+STARTUP: overview
+
+* PROPOSED
+- Genesis survival: 50 people in a shield, limited resources, monster pressure.
+- NPC persistence: promote/demote, retain memories and traits.
+- Social behavior: ordinary NPC temporarily receives LLM dialogue with an influential character.
+- Two generals decide from the same snapshot without response-order bias.
+- Novel magic inscription: simulate validation, physical costs, and feedback.
+- Shield tests: keys, passage aura, attacks, regeneration, divine exceptions.
+- Fast-forward generations without impossible historical events.
+
+* OPEN
+- Acceptance criteria, ground-truth scenarios, random seeds, failure injections.

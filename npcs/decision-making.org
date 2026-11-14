@@ -1,0 +1,16 @@
+#+TITLE: NPC Decision Systems
+#+STARTUP: overview
+
+* AGREED
+- Conventional AI handles basic behaviors for every NPC, including influential NPCs.
+- A limited subset have persistent access to local-LLM reasoning for major decisions and social behavior.
+- Ordinary NPCs must temporarily receive LLM dialogue when speaking with influential characters; they should not seem robotic.
+
+* PROPOSED
+- Select the controller by situation, not by NPC identity.
+- Validate all model-suggested actions in the game engine.
+- In combat, conventional reactions and precomputed plans continue without synchronous inference.
+- Social utterances and strategy proposals do not directly edit world state.
+
+* OPEN
+- Other temporary LLM triggers, fallback policies, utility AI versus behavior trees/GOAP, dialogue budgets.

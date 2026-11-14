@@ -1,0 +1,16 @@
+#+TITLE: System Architecture
+#+STARTUP: overview
+
+* AGREED
+- Engine is authoritative for physics, resources, positions, history, combat outcomes, magic, and events.
+- NPC state owns identity, traits, knowledge, memory, relationships, skills, and goals.
+- Conventional AI handles routines, immediate reactions, and the execution of plans.
+- Local LLMs suggest high-level plans, dialogue, research hypotheses, and consequential choices.
+- All proposed actions must be validated by the same world engine regardless of the NPC controller.
+
+* PROPOSED
+- Advance to simulation events; update ordinary systems; assemble only NPC-observable context for selected LLM requests; validate and schedule results; record outcomes and memories.
+- Computation duration is distinct from world time; identity survives changes of cognitive tier; beliefs may be false.
+
+* OPEN
+- Engine language, event ordering, tick versus discrete-event design, replay determinism, optional multiplayer.

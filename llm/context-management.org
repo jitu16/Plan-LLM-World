@@ -1,0 +1,14 @@
+#+TITLE: LLM Context and Memory Retrieval
+#+STARTUP: overview
+
+* AGREED
+- Many NPCs can share LLM infrastructure while retaining distinct world knowledge and biographies.
+- Ordinary NPCs use the same personal context during temporary LLM-powered conversations.
+
+* PROPOSED
+- Build prompts from current perceptions, memory retrieval, personality, active goals, known world rules, and permitted action schemas.
+- Mark observed truth separately from hearsay, speculation, and outdated information.
+- Cache and summarize thoughtfully to control token consumption.
+
+* OPEN
+- Context limits, retrieval, ranking, summaries, dialogue continuity.

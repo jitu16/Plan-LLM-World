@@ -1,0 +1,12 @@
+#+TITLE: Persistence and Replay
+#+STARTUP: overview
+
+* PROPOSED
+- Persist canonical world state and a chronological record of applied events.
+- Checkpoint long-running worlds for restart and history analysis.
+- Keep individual NPC beliefs and memories distinct from canonical history.
+- Store versions of magic semantics to support old saves.
+- Record LLM decisions so historical runs can be replayed without invoking the models again.
+
+* OPEN
+- Database selection, save frequency, random seeds, log compaction, archival of deceased NPC histories.

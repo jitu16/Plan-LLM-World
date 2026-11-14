@@ -1,0 +1,15 @@
+#+TITLE: Population, Generations, and Cohorts
+#+STARTUP: overview
+
+* AGREED
+- The world develops from approximately 50 Genesis NPCs over many generations.
+- Large populations can be represented without making every person a full-time simulated individual.
+
+* PROPOSED
+- Begin by instantiating Genesis people individually.
+- Later use population cohorts for births, deaths, farming, labor, migration, and reproduction at appropriate fidelity.
+- Materialize particular individuals with histories consistent with existing aggregate records.
+- Maintain explicit lineage and inheritance for important families.
+
+* OPEN
+- Demographic rules, threshold for cohorting, aging, materialization consistency.

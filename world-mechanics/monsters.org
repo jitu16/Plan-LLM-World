@@ -1,0 +1,14 @@
+#+TITLE: Monsters and External Threat
+#+STARTUP: overview
+
+* AGREED
+- Genesis territory outside the shield is densely populated with monsters.
+- The world can conceptually contain millions or billions of monsters without instantiating each one.
+- Risk can vary with distance from the shield.
+
+* PROPOSED
+- Maintain regional monster density, population pressure, movement, habitat, and threat level.
+- Generate actual monsters for patrols, observations, raids, and fights while respecting observed territory and physical consistency.
+
+* OPEN
+- Monster species, ecology, reproduction, movement, source, strength distribution, shield attacks.

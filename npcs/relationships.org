@@ -1,0 +1,13 @@
+#+TITLE: Relationships, Reputation, and Lineage
+#+STARTUP: overview
+
+* AGREED
+- Influence can emerge from social encounters and family lines across generations.
+- Conversations with powerful NPCs can enable ordinary characters to rise.
+
+* PROPOSED
+- Track trust, familiarity, obligations, resentment, alliances, rivalries, kinship, reputation, and mentorship.
+- Update relations from perceived events; inherit property or status only under explicit legal/social rules.
+
+* OPEN
+- Family formation, marriage, inheritance, kinship depth, dynamics.

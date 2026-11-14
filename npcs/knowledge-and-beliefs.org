@@ -1,0 +1,15 @@
+#+TITLE: Knowledge, Beliefs, and Information Limits
+#+STARTUP: overview
+
+* AGREED
+- NPCs do not have access to omniscient world state.
+- NPCs may hold false, incomplete, disputed, or obsolete beliefs.
+- Magical discoveries belong to discoverers until transmitted.
+
+* PROPOSED
+- Attach source, confidence, observation date, and evidence to important beliefs.
+- Rumors can change beliefs without modifying facts.
+- LLM prompts should expose only an NPC's observations, knowledge, and plausible inference.
+
+* OPEN
+- Perception, unreliable reports, rumor propagation, epistemic constraints.

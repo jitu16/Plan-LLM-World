@@ -1,0 +1,15 @@
+#+TITLE: Event Scheduler and Decision Boundaries
+#+STARTUP: overview
+
+* AGREED
+- No NPC freezes because a model is thinking.
+- World time and model computation time are distinct; world speed is adjustable.
+
+* PROPOSED
+- Use event queues and aggregated updates for routine activities.
+- In autonomous mode, halt at major decision barriers and collect/validate LLM decisions from a consistent snapshot.
+- In interactive mode, ordinary actions continue from existing plans; explicit strategic decision boundaries may pause the world when important new reasoning is necessary.
+- Revalidate stale responses; scheduling order should not give one ruler an unfair advantage.
+
+* OPEN
+- Interactive pause presentation, backpressure, deadlines, fairness, throughput.

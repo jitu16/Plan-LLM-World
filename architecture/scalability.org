@@ -1,0 +1,15 @@
+#+TITLE: Scalability and Simulation Fidelity
+#+STARTUP: overview
+
+* AGREED
+- Most NPCs use conventional behavior and a bounded number use persistent LLM deliberation.
+- Millions of inhabitants can eventually be represented without continuously simulating them individually.
+
+* PROPOSED
+- Represent large populations, distant armies, and monster swarms as aggregate cohorts.
+- Instantiate individual NPCs when socially or mechanically necessary, preserving consistent histories.
+- Simulate battles at formation level except when detail is needed.
+- Use LLMs for consequential and social decisions; accelerate routine activity using event aggregation.
+
+* OPEN
+- Maximum individually simulated population, cohort transition rules, spatial partitioning, distributed inference.

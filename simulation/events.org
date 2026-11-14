@@ -1,0 +1,11 @@
+#+TITLE: Events and Historical Development
+#+STARTUP: overview
+
+* PROPOSED
+- Record births, deaths, research discoveries, trade, political changes, disasters, conflicts, and migrations.
+- Keep outcomes chronologically and causally coherent while controlling who can learn each event.
+- Trigger LLM deliberation for surprising or important events, not every routine tick.
+- Permit emergent history, not a fixed narrative.
+
+* OPEN
+- Event taxonomy, stochastic occurrences, historical retrieval, causal audits.

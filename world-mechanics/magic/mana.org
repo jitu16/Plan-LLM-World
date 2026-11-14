@@ -1,0 +1,15 @@
+#+TITLE: Environmental Mana Reservoirs
+#+STARTUP: overview
+
+* AGREED
+- Mana is drawn from the environment, not regenerated from an NPC's metabolic energy.
+- Each region has a finite local mana reservoir and a replenishment rate that may differ geographically.
+- NPCs have individual mana storage and absorption capacity.
+
+* PROPOSED
+- For region r track available M_r(t), maximum capacity, inflow, replenishment, and transfer to neighbors.
+- For NPC i track current mana, storage limit, absorption rate, and possible maximum discharge rate.
+- Require accounting for extraction and replenishment so transfer does not duplicate mana.
+
+* OPEN
+- Spatial transport and diffusion, external replenishment source, leakage, saturation, divine artifacts.

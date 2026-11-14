@@ -1,0 +1,14 @@
+#+TITLE: Actions, Validation, and Execution
+#+STARTUP: overview
+
+* AGREED
+- NPCs can devise novel goals but can only change reality through actions the engine supports.
+- LLM output is a proposal or intention, not an authoritative outcome.
+
+* PROPOSED
+- Actions include actor, required resources, target, authority, preconditions, time, and effect type.
+- Validate before and during execution, charge resources, record results, and emit observable events.
+- Allow commanders to issue objectives and conditional orders implemented through lower-level actions.
+
+* OPEN
+- Composable action set, simultaneous conflicts, partial results, cancellation.

@@ -1,0 +1,15 @@
+#+TITLE: Physical and Magical Conservation Laws
+#+STARTUP: overview
+
+* AGREED
+- Ordinary magic converts stored or ambient mana energy into physical effects while conserving energy.
+- The game engine, not the LLM, calculates physical validity.
+- Divine artifacts can be declared explicit exceptions or linked to an external source.
+
+* PROPOSED
+- Account for heat, motion, force, elemental phenomena, inefficiency, spell power, matter transport, and materials.
+- Water manipulation may move or condense existing water; creating matter requires explicit mass-energy rules.
+- Document divine mana carefully rather than pretending it is an ordinary finite reservoir.
+
+* OPEN
+- Physical units, elemental list, loss mechanisms, matter creation, divine exceptions.

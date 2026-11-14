@@ -1,0 +1,17 @@
+#+TITLE: Artifacts, Shields, and Access Keys
+#+STARTUP: overview
+
+* AGREED
+- Genesis uses a divine or exceptional shield artifact, possibly with an inexhaustible source of mana or exceptional durability.
+- Ordinary shields can lose durability under attack, recover with injected mana, and break.
+- Shields may be tagged with unique access keys; compatible wearable artifacts can confer passage, potentially within a radius.
+
+* PROPOSED
+- Separate shield geometry, durability, mana expenditure, and permissions.
+- A passage artifact may open a localized portal or grant conditional crossing access, subject to engine validation.
+- Treat infinite durability or mana as explicit world exceptions; avoid silently violating ordinary accounting.
+
+* OPEN
+- Is the divine shield actually infinite, externally supplied, or protected only until a trigger?
+- Are shield keys unforgeable, or can magic researchers decipher or counterfeit them?
+- How is an aura of passage applied to companions, carried items, or enemies?

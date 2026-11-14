@@ -1,0 +1,60 @@
+#+TITLE: Architecture Decision Log
+#+STARTUP: overview
+
+* Conventions
+- AGREED :: Explicitly selected design direction; technical details can remain open.
+- PROPOSED :: Candidate implementation, not yet approved.
+- OPEN :: Unsettled question; no assumptions should silently become facts.
+- REVISION :: Record superseded decisions with their reasons.
+
+* AGREED: Autonomous medieval-fantasy simulation
+- The world should evolve independently; player participation is optional.
+- Civilization develops over multiple generations.
+- NPCs and institutions may attempt unforeseen goals, including conspiracies and coups, but only through valid game-engine actions.
+- Basic hard magic is present from the beginning.
+
+* AGREED: Genesis
+- Start with approximately 50 NPCs inside a shield of finite radius created by a special artifact.
+- The exterior is extremely monster-infested; millions or billions of monsters may be represented abstractly rather than individually simulated.
+- Monsters can be instantiated at encounters, with distance from the protective shield potentially influencing risk.
+- The population can grow, develop settlements, and explore; simulation speed must be adjustable.
+
+* AGREED: NPC cognitive architecture
+- Most NPCs use conventional game AI for routine behavior.
+- A bounded, dynamically changing subset receives ongoing local-LLM access for consequential decisions, long-term planning, and dialogue.
+- Ordinary NPCs receive temporary LLM access when conversing with influential NPCs, so they do not appear robotic.
+- Promotion and demotion must preserve the NPC's identity, memories, relationships, and plans.
+- Conventional AI continues to handle immediate movement, combat, and existing plans for all NPCs.
+
+* AGREED: Simulation authority
+- The world engine is authoritative for facts, resources, success and failure, and the outcomes of actions.
+- LLMs propose goals, decisions, plans, speech, and research experiments; they do not change reality by narration.
+
+* AGREED: Hard magic
+- Except for specially declared artifacts, magic follows an energy-conserving ruleset.
+- NPCs absorb mana from their environment; biological metabolism is not the source of mana regeneration.
+- Local mana reserves are finite and replenish at region-specific rates.
+- Individual attributes include mana storage capacity and absorption ability; output/power limits are candidates.
+- Every magic symbol has defined executable semantics. NPCs can experimentally discover combinations and create unanticipated spells.
+- The magic engine validates and executes inscriptions subject to mana, materials, permissions, and physical rules.
+- Mana may produce fire, water-related effects, and other selected elemental phenomena, subject to matter/energy accounting.
+- Grimoires, inscriptions, and mana stones are candidate carriers of magic programs.
+
+* AGREED: Special artifacts and shields
+- The Genesis shield is powered by a divine or otherwise exceptional artifact with a potentially inexhaustible mana supply and potentially extraordinary durability.
+- Conventional shields can be damaged, replenished by mana injection, and eventually broken.
+- Shield-specific keys and wearable passage artifacts with limited passage radius are desired concepts.
+- Literal infinity versus long-lived or externally supplied divine energy is not settled.
+
+* PROPOSED: Timing
+- Simulated time, NPC action duration, and model computation time are distinct.
+- In autonomous Genesis, world time may pause at consequential decision barriers while LLMs finish.
+- Interactive play may require explicit strategic decision pauses rather than silent loss of decision quality.
+- Every combatant continues to have ordinary executable behavior even when inference is delayed.
+
+* OPEN: Foundational questions
+- Source/accounting of ambient mana replenishment and divine exceptions to conservation.
+- Shield duration, durability, key semantics, codebreaking, and passage radius rules.
+- How background population and monsters are abstracted and later instantiated consistently.
+- How many influential NPCs can be supported and how decisions are scheduled in player-visible time.
+- Symbol grammar, mana-to-matter rules, and experimental feedback.

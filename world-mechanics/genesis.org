@@ -1,0 +1,16 @@
+#+TITLE: Genesis Scenario
+#+STARTUP: overview
+
+* AGREED
+- Begin with approximately 50 NPCs.
+- A special artifact creates a protective shield with a finite spatial radius.
+- The exterior is inhabited by vast monster populations and is dangerous to traverse.
+- Generational growth, social change, and eventual expansion are desired.
+
+* PROPOSED
+- Allow shielded survival, agriculture, knowledge growth, institutions, and families.
+- Give some explorers passage through shield-keyed wearable artifacts.
+- Track distant monsters abstractly, instantiating only those relevant to local encounters.
+
+* OPEN
+- Origin of the initial population; starting ages, tools, knowledge and resources; shield radius; expansion conditions.

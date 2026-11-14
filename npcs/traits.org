@@ -1,0 +1,13 @@
+#+TITLE: NPC Traits and Attributes
+#+STARTUP: overview
+
+* AGREED
+- NPCs retain identity and distinguishing characteristics even without ongoing LLM access.
+- Traits and skills affect influence and social opportunities; magical potential is not the same as political rank.
+
+* PROPOSED
+- Track caution, curiosity, ambition, loyalty, risk tolerance, skills, health, social ability, magical aptitude, mana capacity, absorption, output, background, wealth, rank.
+- Allow learning, aging, training, environmental effects, and possibly heredity.
+
+* OPEN
+- Trait scales, heredity model, learning speed, aging, distributions.

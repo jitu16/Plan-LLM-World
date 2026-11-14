@@ -1,0 +1,13 @@
+#+TITLE: Geography and Territory
+#+STARTUP: overview
+
+* AGREED
+- Genesis settlement has a protected radius and a hostile outside.
+- Environmental mana quantity and replenishment vary geographically.
+
+* PROPOSED
+- Track terrain, water, farmland, travel difficulty, biome, danger, shield boundary, and territorial claims separately.
+- Expansion follows from available resources and security, rather than a permanent invisible wall.
+
+* OPEN
+- Map-generation rules, extent, spatial resolution, geographical correlation with magic.

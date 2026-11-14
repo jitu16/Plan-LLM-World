@@ -1,0 +1,11 @@
+#+TITLE: Training and Specialization
+#+STARTUP: overview
+
+* PROPOSED
+- Start by testing pretrained local models before fine-tuning.
+- Build scenarios with proposed actions and validate feasibility against the engine.
+- Consider supervised fine-tuning or teacher-student distillation to improve world-specific decisions and magic syntax.
+- Keep an individual NPC's experiences in memory rather than shared model weights.
+
+* OPEN
+- Training data, distillation, evaluation sets, privacy/licensing, catastrophic forgetting.

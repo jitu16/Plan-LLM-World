@@ -1,0 +1,14 @@
+#+TITLE: Inference Serving and Clusters
+#+STARTUP: overview
+
+* AGREED
+- Local model inference may scale across multiple Mac mini-class machines.
+- Restrict the number of permanently LLM-assisted NPCs to a reliable compute budget.
+
+* PROPOSED
+- Prefer multiple independent serving workers for parallel NPC requests over distributing one model among machines unless benchmarking suggests otherwise.
+- Keep canonical world state and decisions in a centralized scheduler with model workers receiving task snapshots.
+- Prioritize active social interactions, separate research from latency-sensitive dialogue, and monitor queues.
+
+* OPEN
+- Hardware model/RAM, capacity, batching, network latency, failover, scheduling fairness.

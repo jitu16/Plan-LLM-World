@@ -1,0 +1,18 @@
+#+TITLE: Data Structures
+#+STARTUP: overview
+
+* AGREED
+- An NPC's persistent identity, memory, and relationships are independent of its cognitive controller.
+
+* PROPOSED
+- World: clock, map, regions, local mana, event queue, rules version.
+- Cohort: location, head count, age distribution, production, migration.
+- NPC: immutable ID, lineage, traits, resources, needs, abilities, goals, cognition tier.
+- Memory: owner, event, time, viewpoint, source, confidence, salience.
+- Institution: members, territory, hierarchy, assets, policy, conflicts.
+- Action: actor, target, preconditions, resource cost, time, effect, outcome.
+- Artifact: magical rules, source of mana, keys, radius, durability.
+- Spell: typed instruction sequence, compiled form, cost, provenance.
+
+* OPEN
+- Concrete schemas, relational versus entity-component design, indexes, snapshots, event sourcing.

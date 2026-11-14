@@ -1,0 +1,34 @@
+#+TITLE: Development Roadmap
+#+STARTUP: overview
+
+* Objective
+Build a persistent, autonomous medieval-fantasy world that can develop for many generations whether or not a player joins. The primary goal is causal consistency and emergent society, not scripted narratives.
+
+* Stage 0: Planning [CURRENT]
+- Define world rules, NPC cognition/memory, simulation scheduling, artifacts, and magic.
+- Mark settled choices and unresolved questions separately in [[file:design-decisions.org][design-decisions.org]].
+
+* Stage 1: Genesis prototype [PROPOSED]
+- Approximately 50 individual NPCs in an artifact-shielded settlement.
+- World clock, needs, resources, ordinary AI, identity, persistence, and memories.
+- Hostile exterior with abstract monster pressure.
+
+* Stage 2: LLM-enabled society [PROPOSED]
+- A bounded pool of influential NPCs with distinct contexts/memories using shared LLM infrastructure.
+- Temporary local-LLM dialogue for ordinary NPCs who interact with influential NPCs.
+- Promotion and demotion without loss of identity or memory.
+
+* Stage 3: Magic and generations [PROPOSED]
+- Regional finite mana reservoirs, conservation, executable symbols, magic research, and artifacts.
+- Births, deaths, inheritance, knowledge propagation, institutional growth, new settlements.
+
+* Stage 4: Warfare and kingdoms [PROPOSED]
+- Conventional AI for combat; commanders' LLMs issue valid strategic orders.
+- Courts, noble houses, kingdoms, commerce, diplomacy, and large statistical populations.
+
+* Stage 5: Optional interactive RPG [PROPOSED]
+- Player participates without being essential to world evolution.
+- Test explicit strategic decision boundaries and their effects on perceived responsiveness.
+
+* OPEN: Exit criteria
+- Specify benchmarks for simulated years/hour, latency, memory fidelity, conservation, battle continuity, and reproducibility.

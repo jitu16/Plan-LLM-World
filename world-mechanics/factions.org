@@ -1,0 +1,13 @@
+#+TITLE: Political Institutions and Factions
+#+STARTUP: overview
+
+* AGREED
+- NPCs may pursue novel political plans, including conspiracies, without a hard-coded story scenario.
+- Political authority and the need for LLM planning are related but not identical.
+
+* PROPOSED
+- Represent courts, dynasties, councils, armies, noble houses, guilds, kingdoms, and alliances as entities with members and resources.
+- Actions alter legitimacy, obedience, relationships, territories, institutions, and conflict through normal simulation rules.
+
+* OPEN
+- Genesis governance, inheritance law, legitimacy, diplomacy, succession, command authority.

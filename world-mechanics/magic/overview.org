@@ -1,0 +1,15 @@
+#+TITLE: Hard Magic System
+#+STARTUP: overview
+
+* AGREED
+- Include limited hard magic from Genesis onward.
+- Ordinary magic obeys finite environmental mana and the world's conservation laws.
+- NPCs can discover new spells using sequences of symbols with defined executable semantics.
+- The world engine knows magic rules even when NPCs do not.
+- Once validated, a spell can be used by ordinary NPCs without LLM inference.
+
+* PROPOSED
+- Separate [[file:mana.org][mana reservoirs]], [[file:symbols-and-spells.org][symbolic runtime]], [[file:research.org][experimentation]], and [[file:../artifacts-and-shields.org][artifacts]].
+
+* OPEN
+- Core symbol set, elemental effects, skill requirements, spell safety, failure modes.
