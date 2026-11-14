@@ -5,9 +5,10 @@
 - Genesis settlement has a protected radius and a hostile outside.
 - Environmental mana quantity and replenishment vary geographically.
 - The initial region graph is one Genesis zone with six neighboring unexplored zones. Unexplored does not mean an infinite reservoir: each outer zone has finite mana that changes with exchange.
-- The world should eventually have a closed, globally traversable topology rather than a permanent map edge.
+- The world has spherical topology without map edges, using an icosahedron-derived dual grid of hexagonal and pentagonal zones.
+- Exactly twelve pentagonal zones have five neighbors; remaining zones have six. Genesis begins in an ordinary six-neighbor zone.
 
-* PROPOSED: Spherical geodesic grid
+* AGREED: Spherical geodesic grid
 - Use an icosahedron-derived dual (Goldberg/geodesic) grid of hexagonal and pentagonal cells on a sphere.
 - A conventional hexagonal zone has six neighbors; exactly twelve pentagonal zones with five neighbors are needed if the sphere contains only pentagons and hexagons meeting three at each vertex.
 - Genesis can begin at a normal six-neighbor hexagonal cell, so the initial seven-zone model survives this transition.
@@ -16,10 +17,9 @@
 - For exchange and demographic calculations, use each cell's actual area and shared boundary geometry rather than assuming every zone has identical size.
 - Allow world generation to be lazy: remote cells have aggregate environmental attributes while detailed terrain and NPC encounters are instantiated on exploration.
 
-* ALTERNATIVE: Hexagonal torus
+* REJECTED ALTERNATIVE: Hexagonal torus
 - A pure hexagonal grid can use periodic identifications, but the resulting topology is toroidal rather than spherical.
-- Use this only if strict translational periodicity is more important than a planet-like surface.
+- Rejected in favor of a spherical world, which has no map edges.
 
 * OPEN
-- Confirm whether spherical geodesic hexagon/pentagon topology is the final choice.
 - Planet radius, number and size of zones, geodesic subdivision, area distortion, map projections, terrain generation, and cross-zone pathfinding.
