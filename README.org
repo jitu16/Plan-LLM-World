@@ -1,0 +1,5 @@
+#+TITLE: LLM World Simulation — Planning Repository
+#+STARTUP: overview
+
+* Planning repository
+Initial Org-mode draft for the autonomous multi-generational RPG world.
