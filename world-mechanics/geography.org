@@ -4,10 +4,22 @@
 * AGREED
 - Genesis settlement has a protected radius and a hostile outside.
 - Environmental mana quantity and replenishment vary geographically.
+- The initial region graph is one Genesis zone with six neighboring unexplored zones. Unexplored does not mean an infinite reservoir: each outer zone has finite mana that changes with exchange.
+- The world should eventually have a closed, globally traversable topology rather than a permanent map edge.
 
-* PROPOSED
-- Track terrain, water, farmland, travel difficulty, biome, danger, shield boundary, and territorial claims separately.
-- Expansion follows from available resources and security, rather than a permanent invisible wall.
+* PROPOSED: Spherical geodesic grid
+- Use an icosahedron-derived dual (Goldberg/geodesic) grid of hexagonal and pentagonal cells on a sphere.
+- A conventional hexagonal zone has six neighbors; exactly twelve pentagonal zones with five neighbors are needed if the sphere contains only pentagons and hexagons meeting three at each vertex.
+- Genesis can begin at a normal six-neighbor hexagonal cell, so the initial seven-zone model survives this transition.
+- Store explicit adjacency lists. Diffusion, trade, travel, and monster movement use neighbors rather than assumptions about a rectangular map.
+- The spherical surface has no edges; there is no need to connect opposite map edges as though they were a torus.
+- For exchange and demographic calculations, use each cell's actual area and shared boundary geometry rather than assuming every zone has identical size.
+- Allow world generation to be lazy: remote cells have aggregate environmental attributes while detailed terrain and NPC encounters are instantiated on exploration.
+
+* ALTERNATIVE: Hexagonal torus
+- A pure hexagonal grid can use periodic identifications, but the resulting topology is toroidal rather than spherical.
+- Use this only if strict translational periodicity is more important than a planet-like surface.
 
 * OPEN
-- Map-generation rules, extent, spatial resolution, geographical correlation with magic.
+- Confirm whether spherical geodesic hexagon/pentagon topology is the final choice.
+- Planet radius, number and size of zones, geodesic subdivision, area distortion, map projections, terrain generation, and cross-zone pathfinding.
